@@ -19,3 +19,5 @@ C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\WPFDecstop.pdb
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\WPFDecstop.genruntimeconfig.cache
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\ref\WPFDecstop.dll
+C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\SchedulingFormOneDay.g.cs
+C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\SchedulingFormOneDay.baml
