@@ -26,12 +26,14 @@ namespace WPFDecstop
     public partial class MainWindow : Window
     {
         GetCorginatesNumbers getCorginatesNumbers = new GetCorginatesNumbers();
-        private String capt = "";
+        private string capt = "";
         private int countNotAttemps=0;
         public MainWindow()
         {
             InitializeComponent();
             genCapt();
+
+
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -46,7 +48,8 @@ namespace WPFDecstop
             else
             {
                 countNotAttemps++;
-                if(countNotAttemps == 3)
+                genCapt();
+                if (countNotAttemps == 3)
                     Process.GetCurrentProcess().Kill();
             }
         }
