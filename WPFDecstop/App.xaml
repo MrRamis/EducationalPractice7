@@ -2,8 +2,17 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:WPFDecstop"
-             StartupUri="vm/SchedulingFormOneDay.xaml">
+             StartupUri="vm/MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source='/vm/resurse/resurseColorBrush.xaml'/>   
+                <ResourceDictionary Source='/vm/resurse/resurseBorder.xaml'/>
+                <ResourceDictionary Source="vm/resurse/resurseStackPanel.xaml"/>
+                <ResourceDictionary Source='/vm/resurse/resurseTextBlock.xaml'/>
+                <ResourceDictionary Source='/vm/resurse/resurseTextBox.xaml'/>
+                <ResourceDictionary Source='/vm/resurse/resurseButton.xaml'/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

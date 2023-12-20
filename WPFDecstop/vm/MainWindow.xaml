@@ -6,21 +6,28 @@
         xmlns:local="clr-namespace:WPFDecstop"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-        <StackPanel Orientation="Horizontal" Background="Black" Height="160" Width="640" Margin="42,31,278,243">
-            <Polyline Name="one"  Stroke="Red" Points=""/>
-            <Polyline Name="two"  Stroke="Red"/>
-            <Polyline Name="three" Stroke="Red" />
-            <Polyline Name="four" Stroke="Red" />
-
-        </StackPanel>
-        <TextBlock HorizontalAlignment="Left" Margin="42,253,0,0" TextWrapping="Wrap" Text="Введите цифры" VerticalAlignment="Top"/>
-        <TextBox Name="Text" HorizontalAlignment="Left" Margin="42,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Click="Button_Click" Content="сгенирировать сново" HorizontalAlignment="Left" Margin="244,240,0,0" VerticalAlignment="Top" Height="33" Width="109"/>
-        <Button Click="Button_Click_1" Content="войим" HorizontalAlignment="Left" Margin="244,283,0,0" VerticalAlignment="Top" Height="39" Width="109"/>
-        <TextBlock Name="TextResult" HorizontalAlignment="Left" Margin="42,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-
-
-    </Grid>
+    <StackPanel>
+        <Menu Grid.Row="0" FontSize="20">
+            <MenuItem Header="Настройки">
+                <MenuItem Header="Экспортировать в эксель"/>
+                <MenuItem Header="Экспортировать в торой формат"/>
+                <MenuItem Header="Сгенирировать новый токен для входа"/>
+            </MenuItem>
+            <MenuItem Header="Добовление">
+                    <MenuItem Click="Button_Click_Page_Add_Teacher" Header="Добавить преподователя" />
+                    <MenuItem Click="Button_Click_Page_Add_Group" Header="Добавить группу"/>
+                    <MenuItem Click="Button_Click_Page_Add_Item" Header="Добавить предмет"/>
+                    <MenuItem Click="Button_Click_Page_Add_Cabinet" Header="Добавить кабенет"/>
+                    <MenuItem Click="Button_Click_Page_Add_TypCabinet" Header="Добавить тип кабенета"/>
+                </MenuItem>
+            <MenuItem Header="Обновление">
+                <MenuItem Click="Button_Click_Page_Update_Teacher" Header="Обновить преподователя"/>
+                <MenuItem Click="Button_Click_Page_Update_Group" Header="Обновить группу"/>
+                <MenuItem Click="Button_Click_Page_Update_Item" Header="Обновить предмет"/>
+                <MenuItem Click="Button_Click_Page_Update_Cabinet" Header="Обновить кабенет"/>
+                <MenuItem Click="Button_Click_Page_Update_TypCabinet" Header="Обновить тип кабенета"/>
+            </MenuItem>
+        </Menu>
+        <Frame Name="PageMain"  Grid.Row="1" NavigationUIVisibility="Hidden"></Frame>
+    </StackPanel>
 </Window>

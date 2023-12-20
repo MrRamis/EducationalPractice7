@@ -7,11 +7,17 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="vm\addTeacher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="vm\SchedulingFormOneDay.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="vm\addTeacher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="vm\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>

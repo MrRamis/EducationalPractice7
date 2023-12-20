@@ -17,6 +17,12 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WPFDecstop.data.captcha;
+using WPFDecstop.vm;
+using WPFDecstop.vm.Cabinet;
+using WPFDecstop.vm.Group;
+using WPFDecstop.vm.Item;
+using WPFDecstop.vm.Teacher;
+using WPFDecstop.vm.TypCabinet;
 
 namespace WPFDecstop
 {
@@ -25,67 +31,51 @@ namespace WPFDecstop
     /// </summary>
     public partial class MainWindow : Window
     {
-        GetCorginatesNumbers getCorginatesNumbers = new GetCorginatesNumbers();
-        private string capt = "";
-        private int countNotAttemps=0;
         public MainWindow()
         {
             InitializeComponent();
-            genCapt();
-
-
         }
-        private void Button_Click(object sender, RoutedEventArgs e)
+        
+        
+        private void Button_Click_Page_Add_Group(object sender, RoutedEventArgs e)
         {
-            genCapt();
+            PageMain.Content = new AddGroup();
         }
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Button_Click_Page_Update_Group(object sender, RoutedEventArgs e)
         {
-            if(Text.Text == capt)
-            {
-                TextResult.Text = "Ok";
-            }
-            else
-            {
-                countNotAttemps++;
-                genCapt();
-                if (countNotAttemps == 3)
-                    Process.GetCurrentProcess().Kill();
-            }
+            PageMain.Content = new UpdateGroup();
         }
-        private void genCapt()
+        private void Button_Click_Page_Add_Teacher(object sender, RoutedEventArgs e)
         {
-            Random random = new Random();
-
-            one.Points.Clear();
-            two.Points.Clear();
-            three.Points.Clear();
-            four.Points.Clear();
-            capt = "";
-            var oneRandom = random.Next(9);
-            var twoRandom = random.Next(9);
-            var threeRandom = random.Next(9);
-            var fourRandom = random.Next(9);
-            capt += oneRandom;
-            capt += twoRandom;
-            capt += threeRandom;
-            capt += fourRandom;
-            foreach (var t in getCorginatesNumbers.getCorginatesNumbers(oneRandom))
-            {
-                one.Points.Add(t);
-            }
-            foreach (var t in getCorginatesNumbers.getCorginatesNumbers(twoRandom))
-            {
-                two.Points.Add(t);
-            }
-            foreach (var t in getCorginatesNumbers.getCorginatesNumbers(threeRandom))
-            {
-                three.Points.Add(t);
-            }
-            foreach (var t in getCorginatesNumbers.getCorginatesNumbers(fourRandom))
-            {
-                four.Points.Add(t);
-            }
+            PageMain.Content = new AddTeacher();
+        }
+        private void Button_Click_Page_Update_Teacher(object sender, RoutedEventArgs e)
+        {
+            PageMain.Content = new UpdateTeacher();
+        }
+        private void Button_Click_Page_Add_Cabinet(object sender, RoutedEventArgs e)
+        {
+            PageMain.Content = new AddCabinet();
+        }
+        private void Button_Click_Page_Update_Cabinet(object sender, RoutedEventArgs e)
+        {
+            PageMain.Content =  new UpdateCabinet();
+        }
+        private void Button_Click_Page_Add_TypCabinet(object sender, RoutedEventArgs e)
+        {
+            PageMain.Content = new AddTypCabinet();
+        }
+        private void Button_Click_Page_Update_TypCabinet(object sender, RoutedEventArgs e)
+        {
+            PageMain.Content = new UpdateTypCabinet();
+        }
+        private void Button_Click_Page_Add_Item(object sender, RoutedEventArgs e)
+        {
+            PageMain.Content = new AddItem();
+        }
+        private void Button_Click_Page_Update_Item(object sender, RoutedEventArgs e)
+        {
+            PageMain.Content = new UpdateItem();
         }
     }
 }
