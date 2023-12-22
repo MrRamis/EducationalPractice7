@@ -1,0 +1,30 @@
+﻿<Page x:Class="WPFDecstop.vm.Group.AddGroup"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:WPFDecstop.vm.Group"
+      mc:Ignorable="d"
+      Title="addGroup" Height="450" Width="800">
+    <StackPanel>
+        <Border Style="{StaticResource BorderBaseTextBlockBox}">
+            <TextBlock Text="Номер группы" Style="{StaticResource BaseTextBlock}"/>
+        </Border>
+        <Border Style="{StaticResource BorderBaseTextBlockBox}">
+            <TextBox Name="group_number_TextBox" Style="{StaticResource BaseTextBox}"/>
+        </Border>
+        <Border Style="{StaticResource BorderBaseTextBlockBox}">
+            <TextBlock Text="Короткий номер" Style="{StaticResource BaseTextBlock}"/>
+        </Border>
+        <Border Style="{StaticResource BorderBaseTextBlockBox}">
+            <TextBox Name="Short_number_TextBox" Style="{StaticResource BaseTextBox}" />
+        </Border>
+        <Border Style="{StaticResource BorderBaseTextBlockBox}">
+            <TextBlock Text="Количество студентов" Style="{StaticResource BaseTextBlock}"/>
+        </Border>
+        <Border Style="{StaticResource BorderBaseTextBlockBox}">
+            <TextBox Name="number_of_students_TextBox" Style="{StaticResource BaseTextBox}" />
+        </Border>
+        <Button Content="Добавить группу" Click="ButtonBase_OnClick_Add_an_group" />
+    </StackPanel>
+</Page>
