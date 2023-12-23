@@ -213,7 +213,7 @@ public partial class TimetableContext : DbContext
               //  .ValueGeneratedNever()
                 .HasColumnName("id");
             entity.Property(e => e.EnenOrNot).HasColumnName("enen_or_not");
-            entity.Property(e => e.Year).HasColumnName("year");
+            entity.Property(e => e.Year).HasMaxLength(4).HasColumnName("year");
         });
 
         modelBuilder.Entity<Subject>(entity =>
@@ -266,7 +266,7 @@ public partial class TimetableContext : DbContext
             entity.HasIndex(e => e.IdSemester, "fk_id_semestr_idx");
 
             entity.Property(e => e.Id)
-               // .ValueGeneratedNever()
+                .ValueGeneratedNever()
                 .HasColumnName("id");
             entity.Property(e => e.IdSemester).HasColumnName("id_semester");
 

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore.Metadata;
 using WPFDecstop.Models;
 
 namespace WPFDecstop.data.DB;
@@ -11,14 +12,14 @@ public class CtreateAutomatic
         using (TimetableContext db = new TimetableContext())
         {
             if(db.Weekdays.Count()!= 6)
-                createWeekday();
+                CreateWeekday();
             
             
             
         }
     }
 
-    private void createWeekday()
+    private static void CreateWeekday()
     {
         using (TimetableContext db = new TimetableContext())
         {
@@ -58,6 +59,20 @@ public class CtreateAutomatic
             foreach (var variable in week)
             {
                 db.Weekdays.Add(variable);
+                db.SaveChanges();
+            }
+        }
+    }
+
+    public static void CreateWeeks(int id)
+    {
+        using (TimetableContext db = new TimetableContext())
+        {
+            var t = db.Weeks.Count()+1;
+            for (int i = 0; i != 18; i++)
+            {
+                var r = new Week() { Id =  t+ i, IdSemester = id };
+                db.Weeks.Add(r);
                 db.SaveChanges();
             }
         }

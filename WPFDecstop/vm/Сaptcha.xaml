@@ -8,17 +8,26 @@
         Title="Сaptcha" Height="450" Width="800">
     <Grid>
 
-        <StackPanel Orientation="Horizontal" Background="Black" Height="160" Width="640" Margin="42,31,278,243">
-            <Polyline Name="one"  Stroke="Red" Points=""/>
-            <Polyline Name="two"  Stroke="Red"/>
-            <Polyline Name="three" Stroke="Red" />
-            <Polyline Name="four" Stroke="Red" />
-
-        </StackPanel>
+        <Grid  Background="Black" Height="160" Width="640" Margin="80,10,80,264">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Polyline Grid.Column="0" Name="one"  Stroke="Red"/>
+            <Polyline Grid.Column="1" Name="two"  Stroke="Red"/>
+            <Polyline Grid.Column="2" Name="three" Stroke="Red"/>
+            <Polyline Grid.Column="3" Name="four" Stroke="Red"/>
+            <Polyline Grid.Column="0" Name="onef"  Stroke="BlueViolet"/>
+            <Polyline Grid.Column="1" Name="twof"  Stroke="BlueViolet"/>
+            <Polyline Grid.Column="2" Name="threef" Stroke="BlueViolet"/>
+            <Polyline Grid.Column="3" Name="fourf" Stroke="BlueViolet"/>
+        </Grid>
         <TextBlock HorizontalAlignment="Left" Margin="42,253,0,0" TextWrapping="Wrap" Text="Введите цифры" VerticalAlignment="Top"/>
         <TextBox Name="Text" HorizontalAlignment="Left" Margin="42,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Click="Button_Click" Content="сгенирировать сново" HorizontalAlignment="Left" Margin="244,240,0,0" VerticalAlignment="Top" Height="33" Width="109"/>
-        <Button Click="Button_Click_1" Content="войим" HorizontalAlignment="Left" Margin="244,283,0,0" VerticalAlignment="Top" Height="39" Width="109"/>
+        <Button Click="Button_Click" Content="сгенирировать" HorizontalAlignment="Left" Margin="244,217,0,0" VerticalAlignment="Top" Height="56" Width="156"/>
+        <Button Click="Button_Click_1" Content="войти" HorizontalAlignment="Left" Margin="244,283,0,0" VerticalAlignment="Top" Height="39" Width="109"/>
         <TextBlock Name="TextResult" HorizontalAlignment="Left" Margin="42,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
 
