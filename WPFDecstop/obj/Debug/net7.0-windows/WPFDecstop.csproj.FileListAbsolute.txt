@@ -67,14 +67,10 @@ C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Teacher\UpdateTeacher.baml
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Cabinet\AddCabinet.g.cs
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Cabinet\UpdateCabinet.g.cs
-C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Item\AddItem.g.cs
-C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Item\UpdateItem.g.cs
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\TypCabinet\AddTypCabinet.g.cs
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\TypCabinet\UpdateTypCabinet.g.cs
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Cabinet\AddCabinet.baml
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Cabinet\UpdateCabinet.baml
-C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Item\AddItem.baml
-C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Item\UpdateItem.baml
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\TypCabinet\AddTypCabinet.baml
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\TypCabinet\UpdateTypCabinet.baml
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\resurse\resurseTextBlock.baml
@@ -84,3 +80,7 @@ C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\resurse\resurseColorBrush.baml
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\App.baml
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\resurse\resurseStackPanel.baml
+C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Subject\AddSubject.g.cs
+C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Subject\UpdateSubject.g.cs
+C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Subject\AddSubject.baml
+C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Subject\UpdateSubject.baml

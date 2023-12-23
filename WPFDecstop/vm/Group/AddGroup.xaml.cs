@@ -16,17 +16,20 @@ public partial class AddGroup : Page
     {
         using (TimetableContext db = new TimetableContext())
         {
-            int studentAmmount = 0;
-            int.TryParse(number_of_students_TextBox.Text, out studentAmmount);
-            Models.Group group = new Models.Group
+            if (0 == db.Groups.Where(p => p.GroupNumber == group_number_TextBox.Text).Count() &&
+                0 == db.Groups.Where(p => p.ShortNumber == Short_number_TextBox.Text).Count())
             {
-                GroupNumber = group_number_TextBox.Text,
-                ShortNumber = Short_number_TextBox.Text,
-                StudentAmmount = studentAmmount,
-            };
-            db.Groups.Add(group);
-            db.SaveChanges();
-
+                int studentAmmount = 0;
+                int.TryParse(number_of_students_TextBox.Text, out studentAmmount);
+                Models.Group group = new Models.Group
+                {
+                    GroupNumber = group_number_TextBox.Text,
+                    ShortNumber = Short_number_TextBox.Text,
+                    StudentAmmount = studentAmmount,
+                };
+                db.Groups.Add(group);
+                db.SaveChanges();
+            }
         }
     }
 }

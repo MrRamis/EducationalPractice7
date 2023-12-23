@@ -282,7 +282,7 @@ public partial class TimetableContext : DbContext
             entity.ToTable("weekday");
 
             entity.Property(e => e.Id)
-               // .ValueGeneratedNever()
+                .ValueGeneratedNever()
                 .HasColumnName("id");
             entity.Property(e => e.Name)
                 .HasMaxLength(20)

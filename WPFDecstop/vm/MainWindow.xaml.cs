@@ -26,9 +26,6 @@ using WPFDecstop.vm.TypCabinet;
 
 namespace WPFDecstop
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -71,11 +68,11 @@ namespace WPFDecstop
         }
         private void Button_Click_Page_Add_Item(object sender, RoutedEventArgs e)
         {
-            PageMain.Content = new AddItem();
+            PageMain.Content = new AddSubject();
         }
         private void Button_Click_Page_Update_Item(object sender, RoutedEventArgs e)
         {
-            PageMain.Content = new UpdateItem();
+            PageMain.Content = new UpdateSubject();
         }
     }
 }

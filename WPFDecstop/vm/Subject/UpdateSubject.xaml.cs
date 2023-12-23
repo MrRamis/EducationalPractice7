@@ -2,9 +2,9 @@
 
 namespace WPFDecstop.vm.Item;
 
-public partial class UpdateItem : Page
+public partial class UpdateSubject : Page
 {
-    public UpdateItem()
+    public UpdateSubject()
     {
         InitializeComponent();
     }
