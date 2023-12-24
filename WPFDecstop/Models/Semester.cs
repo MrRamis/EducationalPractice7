@@ -12,4 +12,9 @@ public partial class Semester
     public bool? EnenOrNot { get; set; }
 
     public virtual ICollection<Week> Weeks { get; set; } = new List<Week>();
+
+    public override string ToString()
+    {
+        return Year;
+    }
 }

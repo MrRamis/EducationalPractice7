@@ -21,6 +21,7 @@ using WPFDecstop.vm;
 using WPFDecstop.vm.Cabinet;
 using WPFDecstop.vm.Group;
 using WPFDecstop.vm.Item;
+using WPFDecstop.vm.Semester;
 using WPFDecstop.vm.Teacher;
 using WPFDecstop.vm.TypCabinet;
 
@@ -73,6 +74,16 @@ namespace WPFDecstop
         private void Button_Click_Page_Update_Item(object sender, RoutedEventArgs e)
         {
             PageMain.Content = new UpdateSubject();
+        }
+
+        private void Button_Click_Page_Schedule(object sender, RoutedEventArgs e)
+        {
+            PageMain.Content = new Schedule();
+        }
+
+        private void Button_Click_Page_Add_Semester(object sender, RoutedEventArgs e)
+        {
+            PageMain.Content = new AddSemester();
         }
     }
 }

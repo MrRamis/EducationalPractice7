@@ -86,5 +86,5 @@ C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Subject\UpdateSubject.baml
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Semester\AddSemester.g.cs
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Semester\AddSemester.baml
-C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Page1.g.cs
-C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Page1.baml
+C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Schedule.g.cs
+C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Schedule.baml

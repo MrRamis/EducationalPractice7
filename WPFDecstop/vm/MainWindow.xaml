@@ -18,6 +18,7 @@
                     <MenuItem Click="Button_Click_Page_Add_Group" Header="Добавить группу"/>
                     <MenuItem Click="Button_Click_Page_Add_Item" Header="Добавить предмет"/>
                     <MenuItem Click="Button_Click_Page_Add_Cabinet" Header="Добавить кабенет"/>
+                    <MenuItem Click="Button_Click_Page_Add_Semester" Header="Добавить симестр"/>
                     <MenuItem Click="Button_Click_Page_Add_TypCabinet" Header="Добавить тип кабенета"/>
                 </MenuItem>
             <MenuItem Header="Обновление">
@@ -27,6 +28,7 @@
                 <MenuItem Click="Button_Click_Page_Update_Cabinet" Header="Обновить кабенет"/>
                 <MenuItem Click="Button_Click_Page_Update_TypCabinet" Header="Обновить тип кабенета"/>
             </MenuItem>
+            <MenuItem Click="Button_Click_Page_Schedule"  Header="Расписание"></MenuItem>
         </Menu>
         <Frame Name="PageMain"  Grid.Row="1" NavigationUIVisibility="Hidden"></Frame>
     </StackPanel>

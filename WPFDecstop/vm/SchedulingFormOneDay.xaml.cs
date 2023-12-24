@@ -28,7 +28,6 @@ namespace WPFDecstop.vm
         public SchedulingFormOneDay()
         {
             InitializeComponent();
-
             this.ere = new List<string> { "fd", "fd", "fd" };
             audincese = new List<Day>() { new Day("1", "2" ), new Day("3", "23") };
             dayDataGrid.ItemsSource = audincese;
