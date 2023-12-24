@@ -30,6 +30,9 @@
     <Compile Update="vm\Teacher\AddTeacher.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="vm\PairEditing.xaml.cs">
+      <DependentUpon>PairEditing.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
 </Project>

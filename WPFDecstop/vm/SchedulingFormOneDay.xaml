@@ -7,28 +7,33 @@
         mc:Ignorable="d"
         Title="SchedulingForm" Height="450" Width="800" Name="Scheduling">
     <Grid>
-        <DataGrid Name="dayDataGrid" AutoGenerateColumns="False">
-            <DataGrid.Columns>
-                <DataGridTextColumn  Binding="{Binding Path=audincese}" Header="Аудитории"/>
-                
-                <DataGridTemplateColumn Header="1">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <StackPanel>
-                                <ComboBox ItemsSource ="{Binding ere,ElementName=Scheduling}" IsEditable="True"/>
-                                <ComboBox ItemsSource ="{Binding ere,ElementName=Scheduling}" IsEditable="True"/>
-                            </StackPanel>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
-                
-                <DataGridTextColumn Header="2"/>
-                <DataGridTextColumn Header="3"/>
-                <DataGridTextColumn Header="4"/>
-                <DataGridTextColumn Header="5"/>
-                <DataGridTextColumn Header="6"/>
-                <DataGridTextColumn Header="7"/>
-            </DataGrid.Columns>
-        </DataGrid>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition />
+    </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="0" Grid.Row="1"></TextBlock>
+        <ListView Name="ListViewGroup" Grid.Column="0" Grid.Row="1"></ListView>
+        <TextBlock Grid.Column="1" Grid.Row="1"></TextBlock>
+        <ListView Name="ListView1" Grid.Column="1" Grid.Row="1"></ListView>
+        <TextBlock Grid.Column="2" Grid.Row="1"></TextBlock>
+        <ListView Name="ListView2" Grid.Column="2" Grid.Row="1"></ListView>
+        <TextBlock Grid.Column="3" Grid.Row="1"></TextBlock>
+        <ListView Name="ListView3" Grid.Column="3" Grid.Row="1"></ListView>
+        <TextBlock Grid.Column="4" Grid.Row="1"></TextBlock>
+        <ListView Name="ListView4" Grid.Column="4" Grid.Row="1"></ListView>
+        <TextBlock Grid.Column="5" Grid.Row="1"></TextBlock>
+        <ListView Name="ListView5" Grid.Column="5" Grid.Row="1"></ListView>
+        <TextBlock Grid.Column="6" Grid.Row="1"></TextBlock>
+        <ListView Name="ListView6" Grid.Column="6" Grid.Row="1"></ListView>
+        
     </Grid>
 </Page>

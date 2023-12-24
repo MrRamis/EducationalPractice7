@@ -20,30 +20,19 @@ namespace WPFDecstop.vm
     /// </summary>
     public partial class SchedulingFormOneDay : Page
     {
-       public List<string> ere { get; set; }
-        List<Day> audincese { get; set; }
-
+  
 
 
         public SchedulingFormOneDay()
         {
             InitializeComponent();
-            this.ere = new List<string> { "fd", "fd", "fd" };
-            audincese = new List<Day>() { new Day("1", "2" ), new Day("3", "23") };
-            dayDataGrid.ItemsSource = audincese;
-        }
-    }
-   
-    public class Day{
-        public string audincese { get; set; }
-        public string pairOne { get; set; }
-        public List<string> erere { get; set; }
-
-        public Day(string audincese, string pairOne)
-        {
-            this.audincese = audincese;
-            this.pairOne = pairOne;
-  
+            var t = new List<Frame>() { new Frame(), new Frame() };
+       
+            foreach (var i in t)
+            {
+                i.Content = new PairEditing();
+            }
+            ListView1.ItemsSource =t;
         }
     }
 }
