@@ -15,14 +15,15 @@
                 <ColumnDefinition />
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
+            <Polyline Grid.Column="0" Name="onef"  Stroke="Beige"/>
+            <Polyline Grid.Column="1" Name="twof"  Stroke="Brown"/>
+            <Polyline Grid.Column="2" Name="threef" Stroke="Aquamarine"/>
+            <Polyline Grid.Column="3" Name="fourf" Stroke="RoyalBlue"/>
             <Polyline Grid.Column="0" Name="one"  Stroke="Red"/>
             <Polyline Grid.Column="1" Name="two"  Stroke="Red"/>
             <Polyline Grid.Column="2" Name="three" Stroke="Red"/>
             <Polyline Grid.Column="3" Name="four" Stroke="Red"/>
-            <Polyline Grid.Column="0" Name="onef"  Stroke="BlueViolet"/>
-            <Polyline Grid.Column="1" Name="twof"  Stroke="BlueViolet"/>
-            <Polyline Grid.Column="2" Name="threef" Stroke="BlueViolet"/>
-            <Polyline Grid.Column="3" Name="fourf" Stroke="BlueViolet"/>
+         
         </Grid>
         <TextBlock HorizontalAlignment="Left" Margin="42,253,0,0" TextWrapping="Wrap" Text="Введите цифры" VerticalAlignment="Top"/>
         <TextBox Name="Text" HorizontalAlignment="Left" Margin="42,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>

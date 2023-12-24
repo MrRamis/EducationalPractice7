@@ -15,12 +15,12 @@ public partial class Сaptcha : Window
     {
         InitializeComponent();
         genCapt();
-
-
+        genbackground();
     }
     private void Button_Click(object sender, RoutedEventArgs e)
     {
         genCapt();
+        genbackground();
     }
     private void Button_Click_1(object sender, RoutedEventArgs e)
     {
@@ -32,6 +32,7 @@ public partial class Сaptcha : Window
         {
             countNotAttemps++;
             genCapt();
+            genbackground();
             if (countNotAttemps == 3)
                 Process.GetCurrentProcess().Kill();
         }
@@ -68,6 +69,34 @@ public partial class Сaptcha : Window
         foreach (var t in getCorginatesNumbers.getCorginatesNumbers(fourRandom))
         {
             four.Points.Add(t);
+        }
+    }
+    private void genbackground()
+    {
+        Random random = new Random();
+        onef.Points.Clear();
+        twof.Points.Clear();
+        threef.Points.Clear();
+        fourf.Points.Clear();
+        var oneRandom = random.Next(3);
+        var twoRandom = random.Next(3);
+        var threeRandom = random.Next(3);
+        var fourRandom = random.Next(3);
+        foreach (var t in getCorginatesNumbers.getCorginatesbackground(oneRandom))
+        {
+            onef.Points.Add(t);
+        }
+        foreach (var t in getCorginatesNumbers.getCorginatesbackground(twoRandom))
+        {
+            twof.Points.Add(t);
+        }
+        foreach (var t in getCorginatesNumbers.getCorginatesbackground(threeRandom))
+        {
+            threef.Points.Add(t);
+        }
+        foreach (var t in getCorginatesNumbers.getCorginatesbackground(fourRandom))
+        {
+            fourf.Points.Add(t);
         }
     }
 }

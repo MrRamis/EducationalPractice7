@@ -71,9 +71,16 @@ public class CtreateAutomatic
             var t = db.Weeks.Count()+1;
             for (int i = 0; i != 18; i++)
             {
-                var r = new Week() { Id =  t+ i, IdSemester = id };
+                var r = new Week() { Id = t + i, IdSemester = id };
                 db.Weeks.Add(r);
                 db.SaveChanges();
+
+                for (int y = 0; y != 6; y++)
+                {
+                    var d = new Day() {Id = db.Days.Count()+1, IdWeek = r.Id, IdWeekday  = db.Weekdays.ToList()[y].Id};
+                    db.Days.Add(d);
+                    db.SaveChanges();
+                }
             }
         }
     }

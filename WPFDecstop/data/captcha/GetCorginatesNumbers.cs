@@ -36,5 +36,25 @@ namespace WPFDecstop.data.captcha
                 default: return new List<Point> { };
             }
         }
+         public List<Point> getCorginatesbackground(int number)
+        {
+            switch (number)
+            {
+                case 0: return new List<Point> {
+                        new Point(10, 80),
+                        new Point(80, 00),
+                    };
+                case 1: return new List<Point> {
+                    new Point(10, 90),
+                    new Point(40, 20),
+                    new Point(80, 80),
+                };
+                case 2: return new List<Point> {
+                    new Point(40, 70),
+                    new Point(30, 160),
+                };
+                default: return new List<Point> { };
+            }
+        }
     }
 }
