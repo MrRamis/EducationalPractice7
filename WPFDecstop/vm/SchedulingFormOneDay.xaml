@@ -5,35 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFDecstop.vm"
         mc:Ignorable="d"
-        Title="SchedulingForm" Height="450" Width="800" Name="Scheduling">
+        Title="SchedulingForm" Height="700" Width="1400" Name="Scheduling">
     <Grid>
     <Grid.RowDefinitions>
         <RowDefinition Height="Auto"/>
-        <RowDefinition />
+        <RowDefinition/>
     </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-        </Grid.ColumnDefinitions>
-        <TextBlock Grid.Column="0" Grid.Row="1"></TextBlock>
-        <ListView Name="ListViewGroup" Grid.Column="0" Grid.Row="1"></ListView>
-        <TextBlock Grid.Column="1" Grid.Row="1"></TextBlock>
-        <ListView Name="ListView1" Grid.Column="1" Grid.Row="1"></ListView>
-        <TextBlock Grid.Column="2" Grid.Row="1"></TextBlock>
-        <ListView Name="ListView2" Grid.Column="2" Grid.Row="1"></ListView>
-        <TextBlock Grid.Column="3" Grid.Row="1"></TextBlock>
-        <ListView Name="ListView3" Grid.Column="3" Grid.Row="1"></ListView>
-        <TextBlock Grid.Column="4" Grid.Row="1"></TextBlock>
-        <ListView Name="ListView4" Grid.Column="4" Grid.Row="1"></ListView>
-        <TextBlock Grid.Column="5" Grid.Row="1"></TextBlock>
-        <ListView Name="ListView5" Grid.Column="5" Grid.Row="1"></ListView>
-        <TextBlock Grid.Column="6" Grid.Row="1"></TextBlock>
-        <ListView Name="ListView6" Grid.Column="6" Grid.Row="1"></ListView>
-        
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Grid.Row="0" Text="Кабинет"></TextBlock>
+            <TextBlock Grid.Column="1" Grid.Row="0" Text="Понедельник"></TextBlock>
+            <TextBlock Grid.Column="2" Grid.Row="0" Text="Вторник"></TextBlock>
+            <TextBlock Grid.Column="3" Grid.Row="0" Text="Среда"></TextBlock>
+            <TextBlock Grid.Column="4" Grid.Row="0" Text="Четвег"></TextBlock>
+            <TextBlock Grid.Column="5" Grid.Row="0" Text="Пятница"></TextBlock>
+            <TextBlock Grid.Column="6" Grid.Row="0" Text="Суббота"></TextBlock>
+            </Grid>
+        <ScrollViewer Grid.Row="1">
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            <ListBox Name="ListViewCabinet" Grid.Column="0"></ListBox>
+            <ListBox Name="ListView1" Grid.Column="1"></ListBox>
+            <ListBox Name="ListView2" Grid.Column="2"></ListBox>
+            <ListBox Name="ListView3" Grid.Column="3"></ListBox>
+            <ListBox Name="ListView4" Grid.Column="4"></ListBox>
+            <ListBox Name="ListView5" Grid.Column="5"></ListBox>
+            <ListBox Name="ListView6" Grid.Column="6"></ListBox>
+             </Grid>
+            </ScrollViewer>
     </Grid>
 </Page>

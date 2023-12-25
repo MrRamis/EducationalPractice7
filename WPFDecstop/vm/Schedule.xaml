@@ -5,38 +5,34 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:local="clr-namespace:WPFDecstop.vm"
       mc:Ignorable="d" Name="NameSchedule"
-      Title="Page1" Height="450" Width="800">
+      Title="Page1" Height="1060" Width="1900">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-       
         <Grid Row="0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <StackPanel Grid.Row="0" Grid.Column="0" Margin="10">
+            <StackPanel Grid.Row="0" Grid.Column="0" Margin="30">
                 <TextBlock Text="Выбирите симестер"></TextBlock>
                 <ComboBox Name="ComboBox_Semester" SelectionChanged="ComboBox_Semester_OnSelectionChanged"></ComboBox>
             </StackPanel>
-            <StackPanel Grid.Row="0" Grid.Column="1" Margin="10">
+            <StackPanel Grid.Row="0" Grid.Column="1" Margin="30">
                  <TextBlock Text="Выбирите неделю"></TextBlock>
                  <ComboBox Name="ComboBox_Week" SelectionChanged="ComboBox_Semester_OnSelectionChanged"></ComboBox>
             </StackPanel>
-            <StackPanel Grid.Row="0" Grid.Column="2" Margin="10">
+            <StackPanel Grid.Row="0" Grid.Column="2" Margin="30">
                 <TextBlock Text="Выбирите день недели"></TextBlock>
                 <ComboBox Name="ComboBox_Week_Day" SelectionChanged="ComboBox_Semester_OnSelectionChanged"></ComboBox>
             </StackPanel>
         </Grid>
         
-        <Grid Row="1" Margin="5">
-    
-            
+        <Grid Row="1" Margin="30" ColumnSpan="2">
             <Frame Source="SchedulingFormOneDay.xaml"></Frame>
-            
         </Grid>
     </Grid>
 </Page>

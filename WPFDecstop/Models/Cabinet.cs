@@ -16,4 +16,9 @@ public partial class Cabinet
     public virtual CabinetType? IdCabinetTypeNavigation { get; set; }
 
     public virtual ICollection<Lesson> Lessons { get; set; } = new List<Lesson>();
+
+    public override string ToString()
+    {
+        return CabinetNumber;
+    }
 }

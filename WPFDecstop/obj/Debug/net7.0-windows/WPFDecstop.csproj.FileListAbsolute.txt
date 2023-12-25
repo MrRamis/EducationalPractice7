@@ -88,7 +88,7 @@ C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Semester\AddSemester.baml
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Schedule.g.cs
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Schedule.baml
-C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Page2.g.cs
-C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\Page2.baml
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\PairEditing.g.cs
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\PairEditing.baml
+C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\PageListViewCabinet.g.cs
+C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\PageListViewCabinet.baml
