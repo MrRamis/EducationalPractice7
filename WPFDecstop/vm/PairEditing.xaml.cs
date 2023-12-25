@@ -11,13 +11,15 @@ public partial class PairEditing : Page
     public List<Models.Group> GroupsList => new TimetableContext().Groups.ToList();
     public List<Models.Teacher> TeachersList => new TimetableContext().Teachers.ToList();
     public List<Models.Subject> SubjectsList => new TimetableContext().Subjects.ToList();
-    public PairEditing()
+ 
+    public PairEditing(Lesson lesson)
     {
         InitializeComponent();
         ComboBox_Teacher.ItemsSource = TeachersList;
         ComboBox_Group.ItemsSource = GroupsList;
         ComboBox_Subject.ItemsSource = SubjectsList;
     }
+
     
     private void ComboBox_Semester_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
     {

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFDecstop.vm"
         mc:Ignorable="d"
-        Title="SchedulingForm" Height="700" Width="1400" Name="Scheduling">
+        Title="SchedulingForm" Height="700" Width="1600" Name="Scheduling">
     <Grid>
     <Grid.RowDefinitions>
         <RowDefinition Height="Auto"/>
@@ -20,14 +20,16 @@
                 <ColumnDefinition Width="200"/>
                 <ColumnDefinition Width="200"/>
                 <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Column="0" Grid.Row="0" Text="Кабинет"></TextBlock>
-            <TextBlock Grid.Column="1" Grid.Row="0" Text="Понедельник"></TextBlock>
-            <TextBlock Grid.Column="2" Grid.Row="0" Text="Вторник"></TextBlock>
-            <TextBlock Grid.Column="3" Grid.Row="0" Text="Среда"></TextBlock>
-            <TextBlock Grid.Column="4" Grid.Row="0" Text="Четвег"></TextBlock>
-            <TextBlock Grid.Column="5" Grid.Row="0" Text="Пятница"></TextBlock>
-            <TextBlock Grid.Column="6" Grid.Row="0" Text="Суббота"></TextBlock>
+            <TextBlock Grid.Column="1" Grid.Row="0" Text="1"></TextBlock>
+            <TextBlock Grid.Column="2" Grid.Row="0" Text="2"></TextBlock>
+            <TextBlock Grid.Column="3" Grid.Row="0" Text="3"></TextBlock>
+            <TextBlock Grid.Column="4" Grid.Row="0" Text="4"></TextBlock>
+            <TextBlock Grid.Column="5" Grid.Row="0" Text="5"></TextBlock>
+            <TextBlock Grid.Column="6" Grid.Row="0" Text="6"></TextBlock>
+            <TextBlock Grid.Column="7" Grid.Row="0" Text="7"></TextBlock>
             </Grid>
         <ScrollViewer Grid.Row="1">
         <Grid >
@@ -47,6 +49,7 @@
             <ListBox Name="ListView4" Grid.Column="4"></ListBox>
             <ListBox Name="ListView5" Grid.Column="5"></ListBox>
             <ListBox Name="ListView6" Grid.Column="6"></ListBox>
+            <ListBox Name="ListView7" Grid.Column="7"></ListBox>
              </Grid>
             </ScrollViewer>
     </Grid>

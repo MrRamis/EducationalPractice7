@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using WPFDecstop.data.DB;
 using WPFDecstop.Models;
 
 namespace WPFDecstop.vm.Cabinet;
@@ -40,6 +41,8 @@ public partial class AddCabinet : Page
                     db.SaveChanges();
                 }
             }
+            CtreateAutomatic.CreatLessonCabinet();
+            NavigationService.Navigate(null);
         }
         else
             MessageBox.Show("Выберите тип кабинета");

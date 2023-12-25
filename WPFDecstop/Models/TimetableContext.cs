@@ -198,7 +198,7 @@ public partial class TimetableContext : DbContext
             entity.ToTable("lesson_number");
 
             entity.Property(e => e.Id)
-               // .ValueGeneratedNever()
+                .ValueGeneratedNever()
                 .HasColumnName("id");
             entity.Property(e => e.LessonNumber1).HasColumnName("lesson_number");
         });
@@ -223,7 +223,7 @@ public partial class TimetableContext : DbContext
             entity.ToTable("subject");
 
             entity.Property(e => e.Id)
-               // .ValueGeneratedNever()
+                 .ValueGeneratedNever()
                 .HasColumnName("id");
             entity.Property(e => e.Attestation).HasColumnName("attestation");
             entity.Property(e => e.Consultation).HasColumnName("consultation");

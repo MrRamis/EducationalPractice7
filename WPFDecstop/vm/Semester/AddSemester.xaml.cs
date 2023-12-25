@@ -27,9 +27,6 @@ public partial class AddSemester : Page
             t = db.Semesters.ToList()[db.Semesters.Count() - 1].Id;
             CtreateAutomatic.CreateWeeks(t);
         }
-        /*if (t != -5)
-        {
-            
-        }*/
+        NavigationService.Navigate(null);
     }
 }

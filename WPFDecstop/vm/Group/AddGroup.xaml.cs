@@ -31,5 +31,6 @@ public partial class AddGroup : Page
                 db.SaveChanges();
             }
         }
+        NavigationService.Navigate(null);
     }
 }

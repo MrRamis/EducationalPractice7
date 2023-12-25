@@ -32,7 +32,7 @@
         </Grid>
         
         <Grid Row="1" Margin="30" ColumnSpan="2">
-            <Frame Source="SchedulingFormOneDay.xaml"></Frame>
+            <Frame Name="Frame"></Frame>
         </Grid>
     </Grid>
 </Page>

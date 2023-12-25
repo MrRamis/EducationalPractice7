@@ -5,6 +5,7 @@ namespace WPFDecstop.Models;
 
 public partial class Cabinet
 {
+    public object db;
     public int Id { get; set; }
 
     public int? IdCabinetType { get; set; }

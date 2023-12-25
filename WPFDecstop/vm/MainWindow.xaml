@@ -13,12 +13,12 @@
                 <MenuItem Header="Экспортировать в торой формат"/>
                 <MenuItem Header="Сгенирировать новый токен для входа"/>
             </MenuItem>
-            <MenuItem Header="Добовление">
+            <MenuItem Header="Добавление">
                     <MenuItem Click="Button_Click_Page_Add_Teacher" Header="Добавить преподователя" />
                     <MenuItem Click="Button_Click_Page_Add_Group" Header="Добавить группу"/>
                     <MenuItem Click="Button_Click_Page_Add_Item" Header="Добавить предмет"/>
                     <MenuItem Click="Button_Click_Page_Add_Cabinet" Header="Добавить кабенет"/>
-                    <MenuItem Click="Button_Click_Page_Add_Semester" Header="Добавить симестр"/>
+                    <MenuItem Click="Button_Click_Page_Add_Semester" Header="Добавить семестр"/>
                     <MenuItem Click="Button_Click_Page_Add_TypCabinet" Header="Добавить тип кабенета"/>
                 </MenuItem>
             <MenuItem Header="Обновление">

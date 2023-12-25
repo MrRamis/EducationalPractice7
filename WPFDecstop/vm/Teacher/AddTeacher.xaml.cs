@@ -39,6 +39,7 @@ namespace WPFDecstop.vm
                 db.Teachers.Add(teacher);
                 db.SaveChanges();
             }
+            NavigationService.Navigate(null);
         }
     }
 }
