@@ -92,3 +92,4 @@ C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\PairEditing.baml
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\PageListViewCabinet.g.cs
 C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\obj\Debug\net7.0-windows\vm\PageListViewCabinet.baml
+C:\Users\Ramis\Documents\GitHub\EducationalPractice7\WPFDecstop\bin\Debug\net7.0-windows\Spire.XLS.dll

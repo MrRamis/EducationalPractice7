@@ -23,9 +23,8 @@ public partial class Schedule : Page
         ComboBox_Week_Day.ItemsSource = WeekDayList;
         ComboBox_Semester.ItemsSource = SemestersList;
     }
-
-    [SuppressMessage("ReSharper.DPA", "DPA0006: Large number of DB commands", MessageId = "count: 972")]
-    [SuppressMessage("ReSharper.DPA", "DPA0007: Large number of DB records", MessageId = "count: 108")]
+    
+    [SuppressMessage("ReSharper.DPA", "DPA0006: Large number of DB commands")]
     private void ComboBox_Semester_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
     {
         if (ComboBox_Week.SelectedItem != null && ComboBox_Week_Day.SelectedItem != null &&

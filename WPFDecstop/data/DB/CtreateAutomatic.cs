@@ -131,6 +131,7 @@ public class CtreateAutomatic
         db.SaveChanges();
     }
     
+    [SuppressMessage("ReSharper.DPA", "DPA0006: Large number of DB commands")]
     public static void CreateWeeks(int id)
     {
         using TimetableContext db = new TimetableContext();
@@ -169,6 +170,7 @@ public class CtreateAutomatic
     }
     
     [SuppressMessage("ReSharper.DPA", "DPA0007: Large number of DB records")]
+    [SuppressMessage("ReSharper.DPA", "DPA0006: Large number of DB commands")]
     public static void CreatLessonCabinet()
     {
         var day = new TimetableContext().Days.ToList();

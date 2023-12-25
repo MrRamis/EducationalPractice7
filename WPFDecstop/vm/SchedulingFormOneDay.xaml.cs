@@ -30,6 +30,11 @@ namespace WPFDecstop.vm
             List<Frame> pagePairEditing5 = new List<Frame>();
             List<Frame> pagePairEditing6 = new List<Frame>();
             List<Frame> pagePairEditing7 = new List<Frame>();
+            
+            
+            var lessonsWhe = new TimetableContext().Lessons.Where(p => p.IdDayNavigation.IdWeekNavigation
+                                                                        .IdSemesterNavigation == semester &&
+                                                                    p.IdDayNavigation.IdWeekday == day);
             foreach (var cabinet in CabinetList)
             {
                 pageListViewCabinet.Add(new Frame());
@@ -37,12 +42,11 @@ namespace WPFDecstop.vm
                     new PageListViewCabinet(cabinet.CabinetNumber);
                 var t = new TimetableContext().Weeks.Where(p => p.IdSemester == semester.Id).ToList()[week - 1];
 
-                var lessons1 = new TimetableContext().Lessons.Where(p => p.IdLessonNumber == 1 &&
-                                                                         p.IdDayNavigation.IdWeekNavigation
-                                                                             .IdSemesterNavigation == semester &&
-                                                                         p.IdDayNavigation.IdWeekday == day &&
-                                                                         p.IdDayNavigation.IdWeek == t.Id &&
-                                                                         p.IdCabinet == cabinet.Id
+                var lessons = lessonsWhe.Where(p => 
+                                                                   p.IdDayNavigation.IdWeek == t.Id &&
+                                                                   p.IdCabinet == cabinet.Id
+                );
+                var lessons1 = lessons.Where(p => p.IdLessonNumber == 1
                 );
                 foreach (var variable in lessons1)
                 {
@@ -50,25 +54,14 @@ namespace WPFDecstop.vm
                     pagePairEditing1[pagePairEditing1.Count - 1].Content = new PairEditing(variable);
                 }
 
-                var lessons2 = new TimetableContext().Lessons.Where(p => p.IdLessonNumber == 2 &&
-                                                                         p.IdDayNavigation.IdWeekNavigation
-                                                                             .IdSemesterNavigation == semester &&
-                                                                         p.IdDayNavigation.IdWeekday == day &&
-                                                                         p.IdDayNavigation.IdWeek == t.Id &&
-                                                                         p.IdCabinet == cabinet.Id
-                );
+                var lessons2 = lessons.Where(p => p.IdLessonNumber == 2);
                 foreach (var variable in lessons2)
                 {
                     pagePairEditing2.Add(new Frame());
-                    pagePairEditing2[pagePairEditing2.Count - 1].Content = new PairEditing(variable);
+                    pagePairEditing2[^1].Content = new PairEditing(variable);
                 }
 
-                var lessons3 = new TimetableContext().Lessons.Where(p => p.IdLessonNumber == 3 &&
-                                                                         p.IdDayNavigation.IdWeekNavigation
-                                                                             .IdSemesterNavigation == semester &&
-                                                                         p.IdDayNavigation.IdWeekday == day &&
-                                                                         p.IdDayNavigation.IdWeek == t.Id &&
-                                                                         p.IdCabinet == cabinet.Id
+                var lessons3 = lessons.Where(p => p.IdLessonNumber == 3
                 );
                 foreach (var variable in lessons3)
                 {
@@ -76,13 +69,7 @@ namespace WPFDecstop.vm
                     pagePairEditing3[pagePairEditing3.Count - 1].Content = new PairEditing(variable);
                 }
 
-                var lessons4 = new TimetableContext().Lessons.Where(p => p.IdLessonNumber == 4 &&
-                                                                         p.IdDayNavigation.IdWeekNavigation
-                                                                             .IdSemesterNavigation == semester &&
-                                                                         p.IdDayNavigation.IdWeekday == day &&
-                                                                         p.IdDayNavigation.IdWeek == t.Id &&
-                                                                         p.IdCabinet == cabinet.Id
-                );
+                var lessons4 = lessons.Where(p => p.IdLessonNumber == 4);
 
                 foreach (var variable in lessons4)
                 {
@@ -90,39 +77,21 @@ namespace WPFDecstop.vm
                     pagePairEditing4[pagePairEditing4.Count - 1].Content = new PairEditing(variable);
                 }
 
-                var lessons5 = new TimetableContext().Lessons.Where(p => p.IdLessonNumber == 5 &&
-                                                                         p.IdDayNavigation.IdWeekNavigation
-                                                                             .IdSemesterNavigation == semester &&
-                                                                         p.IdDayNavigation.IdWeekday == day &&
-                                                                         p.IdDayNavigation.IdWeek == t.Id &&
-                                                                         p.IdCabinet == cabinet.Id
-                );
+                var lessons5 = lessons.Where(p => p.IdLessonNumber == 5);
                 foreach (var variable in lessons5)
                 {
                     pagePairEditing5.Add(new Frame());
                     pagePairEditing5[pagePairEditing5.Count - 1].Content = new PairEditing(variable);
                 }
 
-                var lessons6 = new TimetableContext().Lessons.Where(p => p.IdLessonNumber == 6 &&
-                                                                         p.IdDayNavigation.IdWeekNavigation
-                                                                             .IdSemesterNavigation == semester &&
-                                                                         p.IdDayNavigation.IdWeekday == day &&
-                                                                         p.IdDayNavigation.IdWeek == t.Id &&
-                                                                         p.IdCabinet == cabinet.Id
-                );
+                var lessons6 = lessons.Where(p => p.IdLessonNumber == 6);
                 foreach (var variable in lessons6)
                 {
                     pagePairEditing6.Add(new Frame());
                     pagePairEditing6[pagePairEditing6.Count - 1].Content = new PairEditing(variable);
                 }
 
-                var lessons7 = new TimetableContext().Lessons.Where(p => p.IdLessonNumber == 7 &&
-                                                                         p.IdDayNavigation.IdWeekNavigation
-                                                                             .IdSemesterNavigation == semester &&
-                                                                         p.IdDayNavigation.IdWeekday == day &&
-                                                                         p.IdDayNavigation.IdWeek == t.Id &&
-                                                                         p.IdCabinet == cabinet.Id
-                );
+                var lessons7 = lessons.Where(p => p.IdLessonNumber == 7);
                 foreach (var variable in lessons7)
                 {
                     pagePairEditing7.Add(new Frame());
