@@ -41,6 +41,7 @@
                 <ColumnDefinition Width="200"/>
                 <ColumnDefinition Width="200"/>
                 <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
             </Grid.ColumnDefinitions>
             <ListBox Name="ListViewCabinet" Grid.Column="0"></ListBox>
             <ListBox Name="ListView1" Grid.Column="1"></ListBox>

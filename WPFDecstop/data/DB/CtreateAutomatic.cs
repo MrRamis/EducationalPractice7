@@ -130,8 +130,7 @@ public class CtreateAutomatic
         db.Groups.Add(new Group(){});
         db.SaveChanges();
     }
-
-    [SuppressMessage("ReSharper.DPA", "DPA0006: Large number of DB commands", MessageId = "count: 756")]
+    
     public static void CreateWeeks(int id)
     {
         using TimetableContext db = new TimetableContext();
@@ -148,24 +147,28 @@ public class CtreateAutomatic
                 db.Days.Add(day);
                 db.SaveChanges();
 
-                for (int e = 0; e != 7; e++)
+                var cab = db.Cabinets.ToList();
+
+                foreach (var cabinet in cab)
                 {
-                    using TimetableContext dbf = new TimetableContext();
-                    var p = new Lesson()
+                    for (int e = 0; e != 7; e++)
                     {
-                         IdDay = day.Id, IdLessonNumber = e + 1,
-                        IdCabinet = 1, IdGroup = 1, IdSubject = 1,
-                        IdTeacher = 1
-                    };
-                    dbf.Lessons.Add(p);
-                    dbf.SaveChanges();
+                        using TimetableContext dbf = new TimetableContext();
+                        var p = new Lesson()
+                        {
+                            IdDay = day.Id, IdLessonNumber = e + 1,
+                            IdCabinet = cabinet.Id, IdGroup = 1, IdSubject = 1,
+                            IdTeacher = 1
+                        };
+                        dbf.Lessons.Add(p);
+                        dbf.SaveChanges();
+                    }
                 }
             }
         }
     }
     
     [SuppressMessage("ReSharper.DPA", "DPA0007: Large number of DB records")]
-    [SuppressMessage("ReSharper.DPA", "DPA0006: Large number of DB commands", MessageId = "count: 756")]
     public static void CreatLessonCabinet()
     {
         var day = new TimetableContext().Days.ToList();

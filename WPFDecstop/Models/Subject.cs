@@ -26,4 +26,10 @@ public partial class Subject
     public int? TotalHours { get; set; }
 
     public virtual ICollection<Lesson> Lessons { get; set; } = new List<Lesson>();
+
+    public override string ToString()
+    {
+        if (SubjectName != null) return SubjectName;
+        return"Нет предмета";
+    }
 }

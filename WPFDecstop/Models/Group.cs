@@ -14,4 +14,10 @@ public partial class Group
     public int? StudentAmmount { get; set; }
 
     public virtual ICollection<Lesson> Lessons { get; set; } = new List<Lesson>();
+    
+    public override string ToString()
+    {
+        if (GroupNumber != null) return GroupNumber;
+        return"Нет группы";
+    }
 }

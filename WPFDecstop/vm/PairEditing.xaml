@@ -7,7 +7,7 @@
       mc:Ignorable="d"
       Title="Page1" Height="110" Width="180">
     <StackPanel Margin="2">
-        <ComboBox Margin="1" IsEditable="True" FontSize="20" Text="Преподователь" Name="ComboBox_Teacher" SelectionChanged="ComboBox_Semester_OnSelectionChanged"></ComboBox>
+        <ComboBox Margin="1" StaysOpenOnEdit ="True" IsEditable="True" FontSize="20" Text="Преподователь" Name="ComboBox_Teacher" SelectionChanged="ComboBox_Semester_OnSelectionChanged"></ComboBox>
         <ComboBox Margin="1" IsEditable="True" FontSize="20" Text="Группа" Name="ComboBox_Group" SelectionChanged="ComboBox_Semester_OnSelectionChanged"></ComboBox>
         <ComboBox Margin="1" IsEditable="True" FontSize="20" Text="Предмет" Name="ComboBox_Subject" SelectionChanged="ComboBox_Semester_OnSelectionChanged"></ComboBox>
     </StackPanel>
