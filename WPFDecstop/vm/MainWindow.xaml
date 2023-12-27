@@ -9,8 +9,7 @@
     <StackPanel>
         <Menu Grid.Row="0" FontSize="20">
             <MenuItem Header="Настройки">
-                <MenuItem Header="Экспортировать в эксель"/>
-                <MenuItem Header="Экспортировать в торой формат"/>
+                <MenuItem  Click="Button_Click_Page_Report" Header="Экспортировать в эксель"/>
                 <MenuItem Header="Сгенирировать новый токен для входа"/>
             </MenuItem>
             <MenuItem Header="Добавление">

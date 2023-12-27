@@ -4,22 +4,70 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d69fe30e-2c63-4fd0-9bae-d72cd5f6c8e7" name="Changes" comment="" />
+    <list default="true" id="d69fe30e-2c63-4fd0-9bae-d72cd5f6c8e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.vs/EducationalPractice7/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/EducationalPractice7/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/EducationalPractice7/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/EducationalPractice7/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/EducationalPractice7/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/EducationalPractice7/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/ProjectEvaluation/educationalpractice7.metadata.v6.1" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/ProjectEvaluation/educationalpractice7.metadata.v6.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vs/ProjectEvaluation/educationalpractice7.projects.v6.1" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/ProjectEvaluation/educationalpractice7.projects.v6.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WPFDecstop/bin/Debug/net7.0-windows/WPFDecstop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/bin/Debug/net7.0-windows/WPFDecstop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WPFDecstop/bin/Debug/net7.0-windows/WPFDecstop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/bin/Debug/net7.0-windows/WPFDecstop.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/App.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/ref/WPFDecstop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/ref/WPFDecstop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/refint/WPFDecstop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/refint/WPFDecstop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/vm/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/vm/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/vm/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/vm/MainWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WPFDecstop/vm/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/vm/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WPFDecstop/vm/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/vm/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApplication2/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApplication2/Models/TimetableContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplication2/Models/TimetableContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApplication2/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplication2/Properties/launchSettings.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Ramis\AppData\Local\Android\Sdk\.android\avd\Pixel_6_API_31.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Ramis\AppData\Local\Android\Sdk\.android\avd\Pixel_4_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Class" />
+        <option value="Kotlin Data Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2a625Dth0QYOcf6B47dyZAJNuIZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,9 +77,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true"
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/Ramis/Documents/GitHub/EducationalPractice7/Mobile/app/src/main/java/com/example/myapplication"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ramis\Documents\GitHub\EducationalPractice7\Mobile\app\src\main\java\com\example\myapplication" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="My_Application.app.main" />
@@ -102,5 +156,16 @@
       <updated>1703624523939</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

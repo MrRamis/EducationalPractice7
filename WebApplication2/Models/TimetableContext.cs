@@ -36,6 +36,7 @@ public partial class TimetableContext : DbContext
     public virtual DbSet<Week> Weeks { get; set; }
 
     public virtual DbSet<Weekday> Weekdays { get; set; }
+    public virtual DbSet<Key> Keys { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
@@ -66,7 +67,18 @@ public partial class TimetableContext : DbContext
                 .HasForeignKey(d => d.IdCabinetType)
                 .HasConstraintName("fk_cabinet_type");
         });
+        modelBuilder.Entity<Key>(entity =>
+        {
+            entity.HasKey(e => e.idKey).HasName("idKey");
 
+            entity.ToTable("key");
+
+            entity.Property(e => e.idKey).HasColumnName("idKey");
+            entity.Property(e => e.key)
+                .HasMaxLength(45)
+                .HasColumnName("key");
+          
+        });
         modelBuilder.Entity<CabinetType>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PRIMARY");
