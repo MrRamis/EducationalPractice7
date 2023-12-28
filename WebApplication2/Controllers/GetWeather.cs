@@ -25,7 +25,9 @@ public class GetWeather : ControllerBase
        List<Data> dataList = new List<Data>();
        var ttttrere = new TimetableContext().Semesters.ToList();
        var tttt = ttttrere.Where(t => t.EnenOrNot == true).ToList()[0];
-    
+       /*var lessonsWhdfsde = new TimetableContext().Lessons.Where(p => p.IdDayNavigation.IdWeekNavigation
+                                                                      .IdSemesterNavigation == tttt &&
+                                                                  p.IdDayNavigation.IdWeekday == 2);*/
         var lessonsWhe = new TimetableContext().Lessons.Where(p => p.IdDayNavigation.IdWeekNavigation
                                                                .IdSemesterNavigation == tttt &&
                                                            p.IdDayNavigation.IdWeekday == 2).ToList();
@@ -38,9 +40,9 @@ public class GetWeather : ControllerBase
 
             var lessons = new TimetableContext().Lessons.Where(p => p.IdDayNavigation.IdWeekNavigation
                                                                         .IdSemesterNavigation == tttt &&
-                                                                    p.IdDayNavigation.IdWeekday == 2&&
-                          p.IdDayNavigation.IdWeek == t.Id &&
-                          p.IdCabinet == CabinetList[i ].Id
+                                                                    p.IdDayNavigation.IdWeekday == 2 &&
+                p.IdDayNavigation.IdWeek == t.Id &&
+                p.IdCabinet == CabinetList[i ].Id
             ).ToList();
             var lessons1 = lessons.Where(p => p.IdLessonNumber == 1).ToList();
             var lessons2 = lessons.Where(p => p.IdLessonNumber == 2).ToList();

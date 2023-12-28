@@ -19,10 +19,15 @@ public class GetKey : ControllerBase
     }
     // GET
     [HttpGet("{key}" )]
-    public IEnumerable<String> Get( string key)
+    public IEnumerable<DetKeY> Get( string key)
     {
         if (new TimetableContext().Keys.Where(p => p.key == key).ToList().Count() == 1)
-            return new[] { "ok", };
-        return new string[] {"false" };
+            return new []{ new DetKeY(){ result = "ok"} };
+        return new []{ new DetKeY(){ result = "false" }};
     }
+}
+
+public class  DetKeY
+{
+    public string? result { get; set; }
 }

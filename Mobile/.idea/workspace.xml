@@ -1,44 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d69fe30e-2c63-4fd0-9bae-d72cd5f6c8e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.vs/EducationalPractice7/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/EducationalPractice7/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vs/EducationalPractice7/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/EducationalPractice7/v17/.futdcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vs/EducationalPractice7/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/EducationalPractice7/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vs/ProjectEvaluation/educationalpractice7.metadata.v6.1" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/ProjectEvaluation/educationalpractice7.metadata.v6.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vs/ProjectEvaluation/educationalpractice7.projects.v6.1" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/ProjectEvaluation/educationalpractice7.projects.v6.1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WPFDecstop/bin/Debug/net7.0-windows/WPFDecstop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/bin/Debug/net7.0-windows/WPFDecstop.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WPFDecstop/bin/Debug/net7.0-windows/WPFDecstop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/bin/Debug/net7.0-windows/WPFDecstop.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/App.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.g.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/WPFDecstop.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/ref/WPFDecstop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/ref/WPFDecstop.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/refint/WPFDecstop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/refint/WPFDecstop.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/vm/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/vm/MainWindow.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/vm/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/obj/Debug/net7.0-windows/vm/MainWindow.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WPFDecstop/vm/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/vm/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WPFDecstop/vm/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WPFDecstop/vm/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebApplication2/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebApplication2/Models/TimetableContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplication2/Models/TimetableContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebApplication2/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplication2/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApplication2/Controllers/GetKey.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplication2/Controllers/GetKey.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +41,7 @@
         <option value="Kotlin File" />
         <option value="Class" />
         <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -78,7 +63,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/Ramis/Documents/GitHub/EducationalPractice7/Mobile/app/src/main/java/com/example/myapplication"
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "last_opened_file_path": "C:/Users/Ramis/Documents/GitHub/Educational/android_development/pr213",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.customizations"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -167,5 +157,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/view/ViewOfTheDay.kt</url>
+          <line>61</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/model/RepositorySchedule.kt</url>
+          <line>70</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/view/Authorization.kt</url>
+          <line>37</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="kotlinx.coroutines.flow.StateFlowImpl" memberName="_state" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
