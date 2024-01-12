@@ -1,0 +1,73 @@
+# 2023-12-26T23:34:17.770Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "ExampleInstrumentedTest"
+    test_package: "com.example.schulde"
+    test_method: "showElement"
+    start_time {
+      seconds: 1703633643
+      nanos: 550000000
+    }
+    end_time {
+      seconds: 1703633650
+      nanos: 606000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "java.lang.AssertionError: No node found that matches Text + EditableText contains \'\320\230\321\200\320\270\320\275\320\260\' (ignoreCase: false) in scrollable container\nSemantics of the node:\nNode #2 at (l=0.0, t=63.0, r=0.0, b=63.0)px, Tag: \'lazyTag\'\nVerticalScrollAxisRange = \'ScrollAxisRange(value=0.0, maxValue=0.0, reverseScrolling=false)\'\nCollectionInfo = \'androidx.compose.ui.semantics.CollectionInfo@16beab6\'\nActions = [IndexForKey, ScrollBy, ScrollToIndex]\nSelector used: (TestTag = \'lazyTag\')\n\nat androidx.compose.ui.test.ActionsKt.performScrollToNode(Actions.kt:249)\nat com.example.schulde.ExampleInstrumentedTest.showElement(ExampleInstrumentedTest.kt:50)"
+    error_type: "java.lang.AssertionError"
+    stack_trace: "java.lang.AssertionError: No node found that matches Text + EditableText contains \'\320\230\321\200\320\270\320\275\320\260\' (ignoreCase: false) in scrollable container\nSemantics of the node:\nNode #2 at (l=0.0, t=63.0, r=0.0, b=63.0)px, Tag: \'lazyTag\'\nVerticalScrollAxisRange = \'ScrollAxisRange(value=0.0, maxValue=0.0, reverseScrolling=false)\'\nCollectionInfo = \'androidx.compose.ui.semantics.CollectionInfo@16beab6\'\nActions = [IndexForKey, ScrollBy, ScrollToIndex]\nSelector used: (TestTag = \'lazyTag\')\n\nat androidx.compose.ui.test.ActionsKt.performScrollToNode(Actions.kt:249)\nat com.example.schulde.ExampleInstrumentedTest.showElement(ExampleInstrumentedTest.kt:50)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Maksim Safonov\\AndroidStudioProjects\\Schulde\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_API_29(AVD) - 10\\logcat-com.example.schulde.ExampleInstrumentedTest-showElement.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Maksim Safonov\\AndroidStudioProjects\\Schulde\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_API_29(AVD) - 10\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Maksim Safonov\\AndroidStudioProjects\\Schulde\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_API_29(AVD) - 10\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Maksim Safonov\\AndroidStudioProjects\\Schulde\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_API_29(AVD) - 10\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\Maksim Safonov\\AndroidStudioProjects\\Schulde\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_API_29(AVD) - 10\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

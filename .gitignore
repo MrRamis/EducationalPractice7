@@ -4,6 +4,8 @@ bower_components
 .bower-registry
 .bower-tmp
 
+/WPFDecstop/bin
+
 ### Buck template
 buck-out/
 .buckconfig.local

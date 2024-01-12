@@ -1,0 +1,212 @@
+12-26 23:34:02.026 14727 14762 I TestRunner: started: showElement(com.example.schulde.ExampleInstrumentedTest)
+12-26 23:34:02.342 14727 14762 W FileTestStorage: Output properties is not supported.
+12-26 23:34:02.345 14727 14762 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+12-26 23:34:02.396 14727 14727 D EventInjectionStrategy: Creating injection strategy with input manager.
+12-26 23:34:02.398 14727 14727 W example.schuld: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (greylist, reflection, allowed)
+12-26 23:34:02.400 14727 14727 W example.schuld: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (greylist, reflection, allowed)
+12-26 23:34:02.401 14727 14727 W example.schuld: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (greylist, reflection, allowed)
+12-26 23:34:02.441 14727 14727 W example.schuld: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (greylist, reflection, allowed)
+12-26 23:34:02.442 14727 14727 W example.schuld: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (greylist, reflection, allowed)
+12-26 23:34:02.443 14727 14727 W example.schuld: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (greylist, reflection, allowed)
+12-26 23:34:02.447 14727 14762 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@95cc798]
+12-26 23:34:02.580 14727 14762 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+12-26 23:34:02.787  1818  2280 E GnssHAL_GnssInterface: gnssSvStatusCb: a: input svInfo.flags is 8
+12-26 23:34:02.787  1818  2280 E GnssHAL_GnssInterface: gnssSvStatusCb: b: input svInfo.flags is 8
+12-26 23:34:02.912  2044  2068 E system_server: Invalid ID 0x00000000.
+12-26 23:34:02.917  2044  2412 W InputReader: Device has associated, but no associated display id.
+12-26 23:34:02.938  2044  2412 I chatty  : uid=1000(system) Binder:2044_7 identical 28 lines
+12-26 23:34:02.938  2044  2412 W InputReader: Device has associated, but no associated display id.
+12-26 23:34:02.940 14727 14727 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@f80e62d
+12-26 23:34:02.951  2044  2412 W InputReader: Device has associated, but no associated display id.
+12-26 23:34:02.951  2044  2412 I chatty  : uid=1000(system) Binder:2044_7 identical 8 lines
+12-26 23:34:02.951  2044  2412 W InputReader: Device has associated, but no associated display id.
+12-26 23:34:03.037  2943  2943 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.safetynet.service.START pkg=com.google.android.gms }
+12-26 23:34:03.038  2943  2943 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.safetynet.service.START pkg=com.google.android.gms }
+12-26 23:34:03.044  1835  2138 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-26 23:34:03.048  1835  2138 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-26 23:34:03.072 14727 14766 D libEGL  : Emulator has host GPU support, qemu.gles is set to 1.
+12-26 23:34:03.073 14727 14766 W libc    : Unable to set property "qemu.gles" to "1": connection failed; errno=13 (Permission denied)
+12-26 23:34:03.081  1819  1819 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+12-26 23:34:03.061 14727 14727 W RenderThread: type=1400 audit(0.0:259): avc: denied { write } for name="property_service" dev="tmpfs" ino=8447 scontext=u:r:untrusted_app:s0:c139,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+12-26 23:34:03.177 14727 14727 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@15500ba in: PRE_ON_CREATE
+12-26 23:34:03.179 14727 14727 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+12-26 23:34:03.251  3285  3285 I dolh    : onPause
+12-26 23:34:03.312 14727 14766 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+12-26 23:34:03.322 14727 14766 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+12-26 23:34:03.353 14727 14766 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+12-26 23:34:03.465 14727 14727 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@15500ba in: CREATED
+12-26 23:34:03.466 14727 14727 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.activity.ComponentActivity@15500ba
+12-26 23:34:03.482 14727 14727 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@15500ba in: STARTED
+12-26 23:34:03.482 14727 14727 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.activity.ComponentActivity@15500ba
+12-26 23:34:03.493 14727 14727 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@15500ba in: RESUMED
+12-26 23:34:03.493 14727 14727 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.activity.ComponentActivity@15500ba
+12-26 23:34:03.636 14727 14764 D HostConnection: HostConnection::get() New Host Connection established 0xda423760, tid 14764
+12-26 23:34:03.670 14727 14764 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+12-26 23:34:03.694  2044  2068 I Choreographer: Skipped 39 frames!  The application may be doing too much work on its main thread.
+12-26 23:34:03.753  2044  2068 W InputReader: Device has associated, but no associated display id.
+12-26 23:34:03.754  2044  2068 I chatty  : uid=1000(system) android.anim identical 8 lines
+12-26 23:34:03.754  2044  2068 W InputReader: Device has associated, but no associated display id.
+12-26 23:34:03.765 14727 14764 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-26 23:34:03.773  1819  1819 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+12-26 23:34:03.790  1818  2280 E GnssHAL_GnssInterface: gnssSvStatusCb: a: input svInfo.flags is 8
+12-26 23:34:03.790  1818  2280 E GnssHAL_GnssInterface: gnssSvStatusCb: b: input svInfo.flags is 8
+12-26 23:34:03.852 14727 14764 D eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+12-26 23:34:03.852 14727 14764 D EGL_emulation: eglCreateContext: 0xf0c535c0: maj 2 min 0 rcv 2
+12-26 23:34:04.041 14727 14764 D EGL_emulation: eglMakeCurrent: 0xf0c535c0: ver 2 0 (tinfo 0xe5ac0240)
+12-26 23:34:04.206  1819  1819 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+12-26 23:34:04.252  1682  1682 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+12-26 23:34:04.257 14727 14764 W Gralloc3: mapper 3.x is not supported
+12-26 23:34:04.281 14727 14764 D HostConnection: createUnique: call
+12-26 23:34:04.285 14727 14764 D HostConnection: HostConnection::get() New Host Connection established 0xda4238f0, tid 14764
+12-26 23:34:04.462 14727 14764 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+12-26 23:34:04.525 14727 14764 D eglCodecCommon: allocate: Ask for block of size 0x1000
+12-26 23:34:04.526 14727 14764 D eglCodecCommon: allocate: ioctl allocate returned offset 0x3ff7fd000 size 0x2000
+12-26 23:34:04.533  1819  1819 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+12-26 23:34:04.549  1819  2596 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+12-26 23:34:04.567 14727 14764 D EGL_emulation: eglMakeCurrent: 0xf0c535c0: ver 2 0 (tinfo 0xe5ac0240)
+12-26 23:34:04.598 14727 14764 D eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 1 0
+12-26 23:34:04.689  2044  2068 I Choreographer: Skipped 54 frames!  The application may be doing too much work on its main thread.
+12-26 23:34:04.763 14727 14764 I OpenGLRenderer: Davey! duration=1171ms; Flags=1, IntendedVsync=7463678522148, Vsync=7463678522148, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=7463681835100, AnimationStart=7463681935500, PerformTraversalsStart=7463682043700, DrawStart=7464641727400, SyncQueued=7464658214800, SyncStart=7464673520800, IssueDrawCommandsStart=7464675432700, SwapBuffers=7464830329800, FrameCompleted=7464865602500, DequeueBufferDuration=96000, QueueBufferDuration=1190000,
+12-26 23:34:04.802  2044  2073 I ActivityTaskManager: Displayed com.example.schulde/androidx.activity.ComponentActivity: +2s156ms
+12-26 23:34:04.802  1818  2280 E GnssHAL_GnssInterface: gnssSvStatusCb: a: input svInfo.flags is 8
+12-26 23:34:04.802  1818  2280 E GnssHAL_GnssInterface: gnssSvStatusCb: b: input svInfo.flags is 8
+12-26 23:34:04.848  2439  2810 D EGL_emulation: eglMakeCurrent: 0xdda1a120: ver 2 0 (tinfo 0xdda0f520)
+12-26 23:34:04.933  3285  3305 V ClearcutMetricXmitter: Transmission is done.
+12-26 23:34:05.001  3314  3336 I FontLog : (REDACTED) Received query %s, URI %s
+12-26 23:34:05.032  3314  3336 I FontLog : (REDACTED) Query [%s] resolved to %s
+12-26 23:34:05.089  3285  3666 D EGL_emulation: eglMakeCurrent: 0xe5a81a40: ver 2 0 (tinfo 0xb84c2a20)
+12-26 23:34:05.128  1835  1835 W SurfaceFlinger: couldn't log to binary event log: overflow.
+12-26 23:34:05.137  3314  3336 I FontLog : (REDACTED) Fetch %s end status %s
+12-26 23:34:05.182  3314  3336 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+12-26 23:34:05.240  3314  3336 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+12-26 23:34:05.255  1835  1835 W SurfaceFlinger: couldn't log to binary event log: overflow.
+12-26 23:34:05.320  3285  3285 I dolh    : onStop
+12-26 23:34:05.693 14727 14727 W example.schuld: Class androidx.compose.runtime.snapshots.SnapshotStateMap failed lock verification and will run slower.
+12-26 23:34:05.693 14727 14727 W example.schuld: Common causes for lock verification issues are non-optimized dex code
+12-26 23:34:05.693 14727 14727 W example.schuld: and incorrect proguard optimizations.
+12-26 23:34:05.791  1818  2280 E GnssHAL_GnssInterface: gnssSvStatusCb: a: input svInfo.flags is 8
+12-26 23:34:05.791  1818  2280 E GnssHAL_GnssInterface: gnssSvStatusCb: b: input svInfo.flags is 8
+12-26 23:34:06.072 14727 14727 W example.schuld: Class androidx.compose.runtime.snapshots.SnapshotStateList failed lock verification and will run slower.
+12-26 23:34:06.627 14727 14727 I Choreographer: Skipped 95 frames!  The application may be doing too much work on its main thread.
+12-26 23:34:06.713 14727 14764 I OpenGLRenderer: Davey! duration=1668ms; Flags=0, IntendedVsync=7465147938363, Vsync=7466731271633, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=7466733194800, AnimationStart=7466733280700, PerformTraversalsStart=7466733359000, DrawStart=7466791679300, SyncQueued=7466803505300, SyncStart=7466805519300, IssueDrawCommandsStart=7466805692900, SwapBuffers=7466807308400, FrameCompleted=7466818206800, DequeueBufferDuration=490000, QueueBufferDuration=765000,
+12-26 23:34:06.786  1818  2280 E GnssHAL_GnssInterface: gnssSvStatusCb: a: input svInfo.flags is 8
+12-26 23:34:06.786  1818  2280 E GnssHAL_GnssInterface: gnssSvStatusCb: b: input svInfo.flags is 8
+12-26 23:34:06.843 14727 14727 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@15500ba in: PAUSED
+12-26 23:34:06.843 14727 14727 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=androidx.activity.ComponentActivity@15500ba
+12-26 23:34:06.845  2044  2412 W InputReader: Device has associated, but no associated display id.
+12-26 23:34:06.848  2044  2412 I chatty  : uid=1000(system) Binder:2044_7 identical 18 lines
+12-26 23:34:06.848  2044  2412 W InputReader: Device has associated, but no associated display id.
+12-26 23:34:06.879  2044  2068 E system_server: Invalid ID 0x00000000.
+12-26 23:34:06.944  1819  2596 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+12-26 23:34:07.037  1780  1780 D Zygote  : Forked child process 14771
+12-26 23:34:07.042  7300  7300 I Finsky  : [2] abbc.onStartJob(128): SCH: job service start with id 9131.
+12-26 23:34:07.065 14771 14771 I le.schulde.tes: Late-enabling -Xcheck:jni
+12-26 23:34:07.259  7300  7366 I Finsky  : [600] opv.accept(64): SCH: Scheduling phonesky job Id: 1-1337, CT: 1703626347636, Constraints: [{ L: 14649402, D: 57849402, C: 1, I: 1, N: 1 }]
+12-26 23:34:07.260  7300  7366 I Finsky  : [600] opv.accept(64): SCH: Scheduling phonesky job Id: 12-1, CT: 1703633632464, Constraints: [{ L: 15000, D: 86400000, C: 1, I: 1, N: 1 }]
+12-26 23:34:07.300  7300  7348 I Finsky  : [596] kma.apply(296): SCH: Scheduling 1 system job(s)
+12-26 23:34:07.311  7300  7348 I Finsky  : [596] aazd.d(263): SCH: Scheduling system job Id: 9135, L: 0, D: 50549737, C: false, I: false, N: 1
+12-26 23:34:07.333  7300  7300 I Finsky  : [2] abbc.onStartJob(128): SCH: job service start with id 9135.
+12-26 23:34:07.358  7300 14777 I Finsky  : [859] abbc.a(26): SCH: job service finished with id 9131.
+12-26 23:34:07.392  7300  7367 I Finsky  : [601] opv.accept(64): SCH: Scheduling phonesky job Id: 1-1337, CT: 1703626347636, Constraints: [{ L: 14649402, D: 57849402, C: 1, I: 1, N: 1 }]
+12-26 23:34:07.398 14727 14778 D ProfileInstaller: Installing profile for com.example.schulde
+12-26 23:34:07.407  7300  7367 I Finsky  : [601] opv.accept(64): SCH: Scheduling phonesky job Id: 12-1, CT: 1703633632464, Constraints: [{ L: 15000, D: 86400000, C: 1, I: 1, N: 1 }]
+12-26 23:34:07.428  7300  7339 I Finsky  : [587] kma.apply(296): SCH: Scheduling 1 system job(s)
+12-26 23:34:07.430  7300  7339 I Finsky  : [587] aazd.d(263): SCH: Scheduling system job Id: 9137, L: 0, D: 50549610, C: false, I: false, N: 1
+12-26 23:34:07.440  7300  7300 I Finsky  : [2] abbc.onStartJob(128): SCH: job service start with id 9137.
+12-26 23:34:07.463  7300 14777 I Finsky  : [859] abbc.a(26): SCH: job service finished with id 9135.
+12-26 23:34:07.483  7300 14633 I Finsky  : [846] klz.a(272): SCH: Satisfied jobs for 9137 are: 12-1
+12-26 23:34:07.506  7300 14777 I Finsky  : [859] xcb.accept(453): SCH: Job 12-1 starting
+12-26 23:34:07.524  7300  7300 I Finsky  : [2] ContentSyncJob.w(14): [ContentSync] job started
+12-26 23:34:07.664 14771 14771 E le.schulde.tes: Unknown bits set in runtime_flags: 0x8000
+12-26 23:34:07.689 14771 14771 W le.schulde.tes: Unexpected CPU variant for X86 using defaults: x86
+12-26 23:34:07.787  1818  2280 E GnssHAL_GnssInterface: gnssSvStatusCb: a: input svInfo.flags is 8
+12-26 23:34:07.787  1818  2280 E GnssHAL_GnssInterface: gnssSvStatusCb: b: input svInfo.flags is 8
+12-26 23:34:07.839  2044  2068 I Choreographer: Skipped 54 frames!  The application may be doing too much work on its main thread.
+12-26 23:34:07.842  2044  2068 I Choreographer: Skipped 52 frames!  The application may be doing too much work on its main thread.
+12-26 23:34:07.907  2044  2121 W InputReader: Device has associated, but no associated display id.
+12-26 23:34:07.922  2044  2121 I chatty  : uid=1000(system) Binder:2044_3 identical 28 lines
+12-26 23:34:07.922  2044  2121 W InputReader: Device has associated, but no associated display id.
+12-26 23:34:07.934  2044  2068 W InputReader: Device has associated, but no associated display id.
+12-26 23:34:07.935  2044  2068 I chatty  : uid=1000(system) android.anim identical 18 lines
+12-26 23:34:07.935  2044  2068 W InputReader: Device has associated, but no associated display id.
+12-26 23:34:07.946  1819  2596 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 5312512
+12-26 23:34:07.992 14727 14764 D EGL_emulation: eglMakeCurrent: 0xf0c535c0: ver 2 0 (tinfo 0xe5ac0240)
+12-26 23:34:08.222 14771 14771 I le.schulde.tes: The ClassLoaderContext is a special shared library.
+12-26 23:34:08.223  2439  2452 I s.nexuslaunche: NativeAlloc concurrent copying GC freed 6747(415KB) AllocSpace objects, 3(196KB) LOS objects, 49% free, 2802KB/5604KB, paused 949us total 169.970ms
+12-26 23:34:08.240 14771 14771 I le.schulde.tes: The ClassLoaderContext is a special shared library.
+12-26 23:34:08.285  2044  7715 D HostConnection: HostConnection::get() New Host Connection established 0xc0b5dfa0, tid 7715
+12-26 23:34:08.293  2044  7715 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+12-26 23:34:08.297  2044  7715 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-26 23:34:08.354  2044  7715 D eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+12-26 23:34:08.355  2044  7715 D EGL_emulation: eglCreateContext: 0xacf90bc0: maj 2 min 0 rcv 2
+12-26 23:34:08.485  2044  7715 D EGL_emulation: eglMakeCurrent: 0xacf90bc0: ver 2 0 (tinfo 0xc1c91660)
+12-26 23:34:08.539  1835  2041 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-26 23:34:08.544  1835  2041 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-26 23:34:08.600 14771 14810 D libEGL  : Emulator has host GPU support, qemu.gles is set to 1.
+12-26 23:34:08.603 14771 14810 W libc    : Unable to set property "qemu.gles" to "1": connection failed; errno=13 (Permission denied)
+12-26 23:34:08.598  2943  2943 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+12-26 23:34:08.640  2044  7715 D eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 1 0
+12-26 23:34:08.591 14771 14771 W RenderThread: type=1400 audit(0.0:260): avc: denied { write } for name="property_service" dev="tmpfs" ino=8447 scontext=u:r:untrusted_app:s0:c140,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+12-26 23:34:08.739 14771 14810 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+12-26 23:34:08.743 14771 14810 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+12-26 23:34:08.756 14771 14810 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+12-26 23:34:08.787  1818  2280 E GnssHAL_GnssInterface: gnssSvStatusCb: a: input svInfo.flags is 8
+12-26 23:34:08.787  1818  2280 E GnssHAL_GnssInterface: gnssSvStatusCb: b: input svInfo.flags is 8
+12-26 23:34:08.799 14727 14727 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@15500ba in: STOPPED
+12-26 23:34:08.799 14727 14727 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=androidx.activity.ComponentActivity@15500ba
+12-26 23:34:08.822  2044  6426 W InputReader: Device has associated, but no associated display id.
+12-26 23:34:08.824  2044  6426 I chatty  : uid=1000(system) Binder:2044_19 identical 8 lines
+12-26 23:34:08.824  2044  6426 W InputReader: Device has associated, but no associated display id.
+12-26 23:34:08.855 14727 14727 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@15500ba in: DESTROYED
+12-26 23:34:08.856 14727 14727 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+12-26 23:34:08.870 14771 14808 D HostConnection: HostConnection::get() New Host Connection established 0xdda57190, tid 14808
+12-26 23:34:08.963 14727 14762 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@95cc798]
+12-26 23:34:08.970 14727 14762 E TestRunner: failed: showElement(com.example.schulde.ExampleInstrumentedTest)
+12-26 23:34:08.970 14727 14762 E TestRunner: ----- begin exception -----
+12-26 23:34:08.990  2044  2073 E memtrack: Couldn't load memtrack module
+12-26 23:34:08.990  2044  2073 W android.os.Debug: failed to get memory consumption info: -1
+12-26 23:34:09.028 14727 14762 E TestRunner: java.lang.AssertionError: No node found that matches Text + EditableText contains 'Ирина' (ignoreCase: false) in scrollable container
+12-26 23:34:09.028 14727 14762 E TestRunner: Semantics of the node:
+12-26 23:34:09.028 14727 14762 E TestRunner: Node #2 at (l=0.0, t=63.0, r=0.0, b=63.0)px, Tag: 'lazyTag'
+12-26 23:34:09.028 14727 14762 E TestRunner: VerticalScrollAxisRange = 'ScrollAxisRange(value=0.0, maxValue=0.0, reverseScrolling=false)'
+12-26 23:34:09.028 14727 14762 E TestRunner: CollectionInfo = 'androidx.compose.ui.semantics.CollectionInfo@16beab6'
+12-26 23:34:09.028 14727 14762 E TestRunner: Actions = [IndexForKey, ScrollBy, ScrollToIndex]
+12-26 23:34:09.028 14727 14762 E TestRunner: Selector used: (TestTag = 'lazyTag')
+12-26 23:34:09.028 14727 14762 E TestRunner:
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.ActionsKt.performScrollToNode(Actions.kt:249)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at com.example.schulde.ExampleInstrumentedTest.showElement(ExampleInstrumentedTest.kt:50)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1$evaluate$1.invoke(AndroidComposeTestRule.android.kt:272)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1$evaluate$1.invoke(AndroidComposeTestRule.android.kt:271)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.withDisposableContent(ComposeUiTest.android.kt:512)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1$1$1$1$1.invoke(ComposeUiTest.android.kt:330)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.withTextInputService(ComposeUiTest.android.kt:396)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$withTextInputService(ComposeUiTest.android.kt:234)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1$1$1$1.invoke(ComposeUiTest.android.kt:329)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.withComposeIdlingResource(ComposeUiTest.android.kt:383)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$withComposeIdlingResource(ComposeUiTest.android.kt:234)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1$1$1.invoke(ComposeUiTest.android.kt:328)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.withWindowRecomposer(ComposeUiTest.android.kt:357)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$withWindowRecomposer(ComposeUiTest.android.kt:234)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1$1.invoke(ComposeUiTest.android.kt:327)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.withTestCoroutines(ComposeUiTest.android.kt:370)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$withTestCoroutines(ComposeUiTest.android.kt:234)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1$1.invoke(ComposeUiTest.android.kt:326)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.junit4.EspressoLink.withStrategy(EspressoLink.android.kt:66)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1$1.invoke(ComposeUiTest.android.kt:325)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.junit4.IdlingResourceRegistry.withRegistry(IdlingResourceRegistry.jvm.kt:157)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$runTest$1.invoke(ComposeUiTest.android.kt:324)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.junit4.ComposeRootRegistry.withRegistry(ComposeRootRegistry.android.kt:146)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.runTest(ComposeUiTest.android.kt:323)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1.evaluate(AndroidComposeTestRule.android.kt:271)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12-26 23:34:09.028 14727 14762 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12-26 23:34:09.028 14727 14762 E TestRunner: ----- end exception -----
+12-26 23:34:09.047 14727 14762 I TestRunner: finished: showElement(com.example.schulde.ExampleInstrumentedTest)

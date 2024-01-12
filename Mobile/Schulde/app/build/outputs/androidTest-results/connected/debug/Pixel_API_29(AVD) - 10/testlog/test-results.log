@@ -1,0 +1,60 @@
+INSTRUMENTATION_STATUS: class=com.example.schulde.ExampleInstrumentedTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.example.schulde.ExampleInstrumentedTest:
+INSTRUMENTATION_STATUS: test=showElement
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.schulde.ExampleInstrumentedTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: No node found that matches Text + EditableText contains 'Ирина' (ignoreCase: false) in scrollable container
+Semantics of the node:
+Node #2 at (l=0.0, t=63.0, r=0.0, b=63.0)px, Tag: 'lazyTag'
+VerticalScrollAxisRange = 'ScrollAxisRange(value=0.0, maxValue=0.0, reverseScrolling=false)'
+CollectionInfo = 'androidx.compose.ui.semantics.CollectionInfo@16beab6'
+Actions = [IndexForKey, ScrollBy, ScrollToIndex]
+Selector used: (TestTag = 'lazyTag')
+
+at androidx.compose.ui.test.ActionsKt.performScrollToNode(Actions.kt:249)
+at com.example.schulde.ExampleInstrumentedTest.showElement(ExampleInstrumentedTest.kt:50)
+
+INSTRUMENTATION_STATUS: stream=
+Error in showElement(com.example.schulde.ExampleInstrumentedTest):
+java.lang.AssertionError: No node found that matches Text + EditableText contains 'Ирина' (ignoreCase: false) in scrollable container
+Semantics of the node:
+Node #2 at (l=0.0, t=63.0, r=0.0, b=63.0)px, Tag: 'lazyTag'
+VerticalScrollAxisRange = 'ScrollAxisRange(value=0.0, maxValue=0.0, reverseScrolling=false)'
+CollectionInfo = 'androidx.compose.ui.semantics.CollectionInfo@16beab6'
+Actions = [IndexForKey, ScrollBy, ScrollToIndex]
+Selector used: (TestTag = 'lazyTag')
+
+at androidx.compose.ui.test.ActionsKt.performScrollToNode(Actions.kt:249)
+at com.example.schulde.ExampleInstrumentedTest.showElement(ExampleInstrumentedTest.kt:50)
+
+INSTRUMENTATION_STATUS: test=showElement
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 7.063
+There was 1 failure:
+1) showElement(com.example.schulde.ExampleInstrumentedTest)
+java.lang.AssertionError: No node found that matches Text + EditableText contains 'Ирина' (ignoreCase: false) in scrollable container
+Semantics of the node:
+Node #2 at (l=0.0, t=63.0, r=0.0, b=63.0)px, Tag: 'lazyTag'
+VerticalScrollAxisRange = 'ScrollAxisRange(value=0.0, maxValue=0.0, reverseScrolling=false)'
+CollectionInfo = 'androidx.compose.ui.semantics.CollectionInfo@16beab6'
+Actions = [IndexForKey, ScrollBy, ScrollToIndex]
+Selector used: (TestTag = 'lazyTag')
+
+at androidx.compose.ui.test.ActionsKt.performScrollToNode(Actions.kt:249)
+at com.example.schulde.ExampleInstrumentedTest.showElement(ExampleInstrumentedTest.kt:50)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1
+
