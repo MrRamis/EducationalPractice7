@@ -4,7 +4,7 @@ bower_components
 .bower-registry
 .bower-tmp
 
-/WPFDecstop/bin
+/WPFDecstop/bin/
 
 ### Buck template
 buck-out/
